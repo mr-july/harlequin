@@ -112,7 +112,7 @@ function! s:HighlightX(group_name, guifg, guibg, gui, guisp)
     exe hi_str
 endfunction
 
-call s:Highlight('Normal', s:text, s:text_bg, '', '')
+call s:Highlight('Normal', s:text, s:black, '', '')
 
 call s:Highlight('Statement',   s:cerise, '', 'bold', '')
 call s:Highlight('Keyword',     s:cerise, '', 'bold', '')
