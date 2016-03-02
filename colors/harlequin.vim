@@ -22,7 +22,7 @@ let s:text_bg = ['#1C1B1A', 234]
 
 let s:white = ['#FFFFFF', 15]
 let s:black = ['#000000', 0]
-let s:greys = [['#BEBEBE', 250], ['#808080', 244], ['#696969', 242], ['#545454', 240], ['#343434', 236], ['#080808', 232]]
+let s:greys = [['#BEBEBE', 250], ['#808080', 244], ['#696969', 242], ['#545454', 240], ['#343434', 238], ['#080808', 232]]
 
 let s:cerise = ['#FF0033', 197]
 
@@ -34,7 +34,7 @@ let s:brick = ['#CB4154', 167]
 
 let s:lilac = ['#AE81FF', 141]
 
-let s:frost = ['#2C89C7', 68] 
+let s:frost = ['#2C89C7', 68]
 
 let s:sunny = ['#FFFC7F', 228]
 
@@ -146,7 +146,7 @@ call s:Highlight('CommentUrl',      s:frost, '', 'underline', '')
 call s:Highlight('SpecialComment',  s:frost, '', 'bold', '')
 call s:Highlight('Todo',            s:frost, '', 'bold', '')
 
-call s:Highlight('String',          s:sunny, '', '', '') 
+call s:Highlight('String',          s:sunny, '', '', '')
 call s:Highlight('SpecialKey',      s:lilac, '', 'bold', '')
 call s:Highlight('Special',         s:lilac, '', 'bold', '')
 call s:Highlight('SpecialChar',     s:lilac, '', 'bold', '')
@@ -210,7 +210,7 @@ call s:HighlightX('Underlined',     '', '', 'underline', '')
 call s:Highlight('Directory',       s:lime, '', '', '')
 call s:Highlight('Question',        s:lime, '', '', '')
 call s:Highlight('MoreMsg',         s:lime, '', '', '')
-  
+
 call s:Highlight('WildMenu',        s:black, s:lilac, 'bold', '')
 
 call s:Highlight('Title',           '', '', 'underline', '')
